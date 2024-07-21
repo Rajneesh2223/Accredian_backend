@@ -3,6 +3,7 @@
 ## live url of this backend is 
 https://accredian-backend-ljbp.onrender.com
 
+### First Step
 ```
 1. npm install
 ```
@@ -32,5 +33,18 @@ CREATE TABLE referrals (
     message TEXT,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
+
+### Create the environment file.
+```
+MYSQL_HOST=
+MYSQL_USER=
+MYSQL_PASSWORD= 
+MYSQL_DATABASE=
+```
+
+### Final step 
+```
+node index.js
 ```
 
